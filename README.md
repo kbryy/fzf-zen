@@ -53,6 +53,23 @@ set -g FZF_ZEN_POPUP_SIZE "90%,80%"        # Popup size (default: "70%,75%")
 set -g FZF_ZEN_PREVIEW_WINDOW "right:50%"  # Preview position (default: "right:60%")
 ```
 
+## Contributing
+
+We welcome contributions to this project! Here are ways you can help:
+
+### How to Contribute
+- **Bug Reports**: Report bugs via [Issues](https://github.com/kbryy/fzf-zen/issues)
+- **Feature Requests**: Propose new features and improvements through Issues
+- **Pull Requests**: Submit code for bug fixes and new features
+- **Documentation**: Improve README and usage examples
+
+### Getting Started with Development
+1. Fork this repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'feat: add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Create a Pull Request
+
 ## License
 
 MIT License

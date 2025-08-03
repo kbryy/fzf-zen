@@ -54,6 +54,23 @@ set -g FZF_ZEN_POPUP_SIZE "90%,80%"        # ポップアップサイズ (デフ
 set -g FZF_ZEN_PREVIEW_WINDOW "right:50%"  # プレビュー位置 (デフォルト: "right:60%")
 ```
 
+## 貢献について
+
+このプロジェクトへの貢献を歓迎します！以下のような形でご協力いただけます：
+
+### 貢献方法
+- **バグ報告**: [Issues](https://github.com/kbryy/fzf-zen/issues)からバグを報告
+- **機能提案**: 新機能のアイデアや改善案をIssueで提案
+- **プルリクエスト**: バグ修正や機能追加のコードを提出
+- **ドキュメント改善**: READMEや使用例の改善
+
+### 開発に参加するには
+1. このリポジトリをフォーク
+2. feature branchを作成: `git checkout -b feature/amazing-feature`
+3. 変更をコミット: `git commit -m 'feat: add amazing feature'`
+4. ブランチにプッシュ: `git push origin feature/amazing-feature`
+5. プルリクエストを作成
+
 ## License
 
 MIT License
