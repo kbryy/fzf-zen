@@ -5,6 +5,8 @@
 Comfortable file searching with centered popups.
 A Fish shell plugin designed for natural sight line terminal operations.
 
+![fzf-zen demo](docs/images/demo.gif)
+
 ## Philosophy
 
 **"Minimizing physical and cognitive stress in terminal operations"**
