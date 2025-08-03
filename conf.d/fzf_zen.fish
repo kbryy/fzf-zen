@@ -14,24 +14,9 @@ function __fzf_zen_get_default_config
         case preview_window
             echo "right:60%"
         case colors
-            echo "border:cyan," \
-                "fg:white," \
-                "fg+:bright-green," \
-                "hl:magenta," \
-                "hl+:bright-blue," \
-                "bg+:black," \
-                "pointer:red," \
-                "prompt:bright-cyan," \
-                "info:yellow," \
-                "header:bright-green"
+            echo "border:blue,fg:white,fg+:bright-white,hl:cyan,hl+:bright-cyan,bg+:black,pointer:green,prompt:blue,info:bright-black,header:cyan"
         case common_options
-            echo --ansi \
-                "--color=$FZF_ZEN_COLORS" \
-                "--border=rounded" \
-                "--marker ▏" \
-                "--pointer ▌" \
-                "--prompt ▌" \
-                "--layout=reverse"
+            echo --ansi "--color=$FZF_ZEN_COLORS" "--border=rounded" "--marker ▏" "--pointer ▌" "--prompt ▌" "--layout=reverse"
         case popup_options
             echo "fzf-tmux -p $FZF_ZEN_POPUP_SIZE -x C -y C"
     end
